@@ -6,24 +6,24 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "davidcyril209@gmail.com";
-global.location = "Abuja, Nigeria";
+global.email = .oluwajuwonmichael63@gmail.com";
+global.location = "lagos, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/DeeCeeXxx/Queen_Anita-V2";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRru3ADTOEKPCPom0L";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VagTGyuI1rcotBW2mn3p";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VagTGyuI1rcotBW2mn3p";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/17c8ba84a7761eed633f6.jpg";
-global.devs = "https://t.me/deecee_x";
-global.sudo = process.env.SUDO || "";
-global.owner = process.env.OWNER_NUMBER || "";
+global.devs = "https://wa.me/08142909904";
+global.sudo = process.env.SUDO || "08142909904";
+global.owner = process.env.OWNER_NUMBER || "+2348161421533";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
-global.warncount = process.env.WARN_COUNT || 3;
+global.warncount = process.env.WARN_COUNT || 2;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
@@ -47,12 +47,12 @@ module.exports = {
   menu: process.env.MENU || "2",
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
-  VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "`QUEEN_ANITA-V2™`",
-  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V2",
+  VERSION: process.env.VERSION || "2.0.0",
+  caption: process.env.CAPTION || "`QUEEN_ANITA-V3™`",
+  author: process.env.PACK_AUTHER || "QUEEN_ANITA-V3",
   packname: process.env.PACK_NAME || "A N I T A",
-  botname: process.env.BOT_NAME || "QUEEN_ANITA-V2",
-  ownername: process.env.OWNER_NAME || "David Cyril",
+  botname: process.env.BOT_NAME || "QUEEN_ANITA-V3",
+  ownername: process.env.OWNER_NAME || "FÄMZ-BØT💙",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
 global.rank = "updated";
